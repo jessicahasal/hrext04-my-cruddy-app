@@ -44,36 +44,21 @@
   7 = 5 hours
   10 = full day + ??
 
-  *(5) add due date
+  A personal journal 
+  A list of journal entries.
+
   *(7) time stamps (moment.js)
-  (5) format the display of the items in a list (need to add more detail)
+  (5) format the display of the items in a list
+  (5)format the text boxes
   (??) fix the layout
   (7) color coded priority
-  highlight certain items
-  mouse over to see details
-  ability to select and delete multiple items (checkbox?)
-  add status/priorty and allow for sorting based on status/priority
-  Item categories
-  ability to add/leave comments on item
-  upload files/images
-  share item
-  drag and drop to arrange
-  search/filter on keyup/keydown
-  reminders? (push operation?)
-  secret corgi
-  delete item confirmation
-  fillet edges of boxes
-  font changes/choices? (google fonts)
-  Panic Button
-  Highlight based on status/priority/due date
-  options page (ability to set/toggle options)
-  show deleted items and allow for undelete
-  pagination (if more than 10 show a next button)
-  category pages (not really pages, just a show/hide trick)
-  strike-through completed/deleted items (styling)
-  add more items button, that shows another input section allowing for multiple items to be added at once
-  Fun stuff
-  auto-complete when searching/filtering
+  (3) secret corgi
+  (3)delete item confirmation
+  (7)pagination (if more than 10 show a next button)
+  (10) category pages (not really pages, just a show/hide trick)for different moods.
+  (7)save old enteries
+  
+
 
 
 
