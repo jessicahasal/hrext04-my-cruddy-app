@@ -1,0 +1,48 @@
+.header{
+	font-size: 40px;
+    padding:10px;
+
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.add-text-btn{
+	margin:10px;
+}
+.delete-text-btn{
+	margin:10px;
+}
+.largeContainer{
+	font-family:Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	width: 500px;
+	padding: 10px;
+	display:inline-block;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 480px;
+    display: inline-block;
+}
+.entries{
+	width: 480px;
+    min-height: 250px;
+    display: inline-block;
+    margin:10px;
+}
+#happy-button{
+   background: #F3F781;
+   font-size: 20px;
+}
+#sad-button{
+   background: #00FFFF;
+   font-size:20px;
+}
+#mad-button{
+	background: #FF0000;
+	font-size:20px;
+}
+.text{
+	
+}
