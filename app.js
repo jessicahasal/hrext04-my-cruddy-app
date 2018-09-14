@@ -70,22 +70,40 @@ $(document).ready(function() {
     displayEntries();
   });
 
-   // iterative approach to adding items
-   // store data as stringified array of objects
-   // store data with individual keys
-  // how do we get keys? research Object.keys
 
-  //opponent, date, points, assists, steals, rebounds, blocks
   $("#happy-button").on("click", function() {
-     $("body").first().css("background-color", "#ffff66");
+     $("body").first().css("background-image", "url(https://wallpaperlayer.com/img/2015/10/sunshine-wallpaper-7471-7760-hd-wallpapers.jpg"); 
+     $("body").first().css("width","100%")
+     $("body").first().css("height", "100vh") 
+     $(".container").first().css("font-family", "Papyrus, cursive");
+     $(".header").first().css("font-family", "Papyrus, cursive");
+     $(".user-input-message").first().css("font-family", "Papyrus, cursive");
   });
   $("#sad-button").on("click", function() {
-     $("body").first().css("background-color", "#0099cc");
+     $("body").first().css("background-image", "url(http://www.freeimageslive.com/galleries/sports/moods%20emotions/pics/wet_weather_beachP1013462.jpg"); 
+     $("body").first().css("width","100%")
+     $("body").first().css("height", "100%") 
+     $(".container").first().css("font-family", "Brush Script MT, cursive");
+     $(".header").first().css("font-family", "Brush Script MT, cursive");
+     $(".user-input-message").first().css("font-family", "Brush Script MT, cursive");
+     
   });
   $("#mad-button").on("click", function() {
-     $("body").first().css("background-color", "#ff3300");
-
+     $("body").first().css("background-image", "url(https://www.solidbackgrounds.com/images/2560x1440/2560x1440-black-solid-color-background.jpg"); 
+     $("body").first().css("width","100%")
+     $("body").first().css("height", "100%")
+     $(".container").first().css("font-family", "Party LET, fantasy");
+     $(".header").first().css("font-family", "Party LET, fantasy");
+     $(".user-input-message").first().css("font-family", "Party LET, fantasy");
+     $(".header").first().css("color", "white")
   });
+
+  $(".footer").on("click", function() {
+     $("body").first().css("background-image", "url(https://www.101dogbreeds.com/wp-content/uploads/2014/10/Pembroke-Welsh-Corgi-Puppies.jpg"); 
+     $("body").first().css("width","100%")
+     $("body").first().css("height", "100%")
+
+  })
 
 
 });
