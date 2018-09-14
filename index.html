@@ -10,15 +10,25 @@
             crossorigin="anonymous"></script>
     <script src="app.js"></script>
 
-  </head>
+  </head><center>
   <body>
+  <div class = "header">
+    <center> Epic Journal </center>
+    <button id="happy-button">Happy</button>
+    <button id ="sad-button">Sad</button>
+    <button id ="mad-button">Mad</button>
+  </div>
+  <div class="largeContainer">
+    <div class = "container">
+      <div> 
+         <input type="text" class="user-input-title" placeholder="Date"><br/>
+      </div>
+      <div>
+         <textarea class="user-input-message" placeholder="Body"></textarea><br/>
 
-  <input type="text" class="user-input-title" placeholder="Enter the Title">
-  <textarea class="user-input-body" placeholder="Enter the body of text"></textarea>
-
-  <button class="add-text-btn">add text</button>
-  <button class="del-text-btn">delete text</button>
-
-  <div class="display"></div>
+  <button class="add-text-btn">Submit</button>
+  <button class="del-text-btn">Delete Entry</button>
+  <div class="entries"></div>
+</div>
   </body>
 </html>
